@@ -29,4 +29,6 @@ cd niri-dotfiles && cd install
 
 ---
 
-![3]()
+![3](https://github.com/neroki194/niri-dotfiles/blob/main/screenshots/Screenshot%20from%202026-09-05%2010-21-05.png)
+
+thx for supporting me <img src="https://i.imgur.com/uVhxuvN.png" width="22" style="vertical-align: middle" />
