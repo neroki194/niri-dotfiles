@@ -1,0 +1,10 @@
+*
+
+!install/
+!install/**
+!.config/
+!.config/**
+
+!.gitignore
+
+**/.dotfiles-backup/
