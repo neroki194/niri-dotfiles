@@ -8,7 +8,7 @@
 - **Shell:** DankMaterialShell (DMS)<br/>
 
 ### Manual
-you'll find everything on [/.config](https://github.com/neroki194/niri-dotfiles/edit/main/.config), no steps, use your brain.
+you'll find everything on [/.config](https://github.com/neroki194/niri-dotfiles/tree/main/.config), no steps, use your brain.
 
 ### Quick & Easy
 just clone the repo and follow the steps:<br/>
