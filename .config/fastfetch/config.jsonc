@@ -1,0 +1,118 @@
+// credits: neroki194
+// https://github.com/neroki194/niri-dotfiles
+
+{
+  "logo": {
+    "type": "sixel",
+    "source": "~/.config/fastfetch/pic.jpg",
+    "height": 14,
+    "padding": {
+      "top": 1,
+      "left": 1,
+      "right": 1
+    }
+  },
+
+  "display": {
+    "separator": " "
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "key": "╭────────────╮",
+      "keyColor": "red"
+    },
+    {
+      "key": "│  User     │",
+      "type": "title",
+      "format": "{6}{7}{8}",
+      "keyColor": "red"
+    },
+    {
+      "type": "custom",
+      "key": "├────────────┤",
+      "keyColor": "red"
+    },
+    {
+      "type": "host",
+      "key": "│ 󰌢 Machine  │",
+      "keyColor": "red"
+    },
+    {
+      "type": "os",
+      "key": "│ {icon} OS       │",
+      "format": "{#38}{name} ",
+      "keyColor": "red"
+    },
+    {
+      "type": "kernel",
+      "key": "│  Kernel   │",
+      "keyColor": "red"
+    },
+    {
+      "type": "de",
+      "key": "│  DE       │",
+      "keyColor": "red"
+    },
+    {
+      "type": "wm",
+      "key": "│  WM       │",
+      "keyColor": "red"
+    },
+    {
+      "type": "terminal",
+      "key": "│  Terminal │",
+      "keyColor": "red"
+    },
+    {
+      "type": "packages",
+      "key": "│ 󰏗 Packages │",
+      "keyColor": "red",
+      "disabled": [
+        "apk"
+      ],
+      "combined": false
+    },
+    {
+      "type": "custom",
+      "key": "╰────────────╯",
+      "keyColor": "red"
+    },
+    {
+      "type": "custom",
+      "key": "╭────────────╮"
+    },
+    {
+      "type": "display",
+      "key": "│ 󰍹 Display  │",
+      "format": "{1}x{2} @ {3}Hz [{7}]"
+    },
+    {
+      "type": "memory",
+      "key": "│  Memory  {#keys} │",
+      "format": "{#38}{used} / {total}{#keys} "
+    },
+    {
+      "type": "disk",
+      "key": "│  Disk    {#keys} │",
+      "format": "{#38}{size-used} / {size-total}{#keys} "
+    },
+    {
+      "type": "cpu",
+      "key": "│  CPU     {#keys} │",
+      "format": "{#38}{name} ({cores-logical}){#keys}"
+    },
+    {
+      "type": "battery",
+      "key": "│  Battery {#keys} │"
+    },
+    {
+      "type": "uptime",
+      "key": "│ 󱫐 Uptime {#keys}  │",
+    },
+    {
+      "type": "custom",
+      "key": "╰────────────╯",
+    },
+  ]
+}
